@@ -1,0 +1,210 @@
+
+header {
+    background-color:hsla(0, 0%, 0%, 0.42);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    background-color: background-color: hsla(0, 0%, 0%, 0.72);
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1em;
+}
+
+header .title {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 1em;
+    display: inline;
+  }
+
+body {
+    background: gray;
+    background-image: url('moeidlarge.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+.profilepic {
+    align-items: center;
+    margin: auto;
+}
+
+#grid-container {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.profile {
+    border: 1px solid #ddd;
+    max-width: 500px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    background-color:hsla(0, 0%, 0%, 0.42)
+}
+
+.project {
+    border: 1px solid #ddd;
+    max-width: 500px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    background-color:hsla(300, 100%, 40%, 0.21)
+}
+
+.project img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.profilepic {
+    width: 200px;
+    height: auto;
+    align-self: center;
+}
+
+a {
+    color: whitesmoke;
+    text-align: center
+}
+
+.work {
+    text-align: center;
+}
+
+
+form {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: hsla(295, 25%, 42%, 0.81);
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: purple;
+}
+
+footer {
+    background-color:hsla(0, 0%, 0%, 0.42);
+    color: #fff;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+    align-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 390px) {
+    header {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 490px) {
+    header .title {
+        font-size: small;
+    }
+  }
+
+
+@media (max-width: 750px) {
+    .profilepic {
+        max-width: 200px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 950px) {
+    .sidebar {
+        max-width: 790px;
+        max-height: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: small;
+    }
+}
+
+@media (max-width: 386px) {
+    form {
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 386px) {
+    footer {
+        width: 350px;
+
+    }
+}
+
+
